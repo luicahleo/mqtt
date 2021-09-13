@@ -20,7 +20,7 @@ const options = {
       clean: true,
     }
 
-    const WebSocket_URL = 'wss://trajano.tech:8094/mqtt'
+    const WebSocket_URL = 'wss://trajano.es:8084/mqtt'
 
     const client = mqtt.connect(WebSocket_URL, options)
 
